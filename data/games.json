@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Pokemon Red and Green",
+    "releaseDate": "1996-2-27",
+    "trailerLink": "https://www.youtube.com/watch?v=WP4R-wVeT9stHb7WlgyaUc",
+    "platform": "Game Boy",
+    "poster": "https://cdn.wikimg.net/en/splatoonwiki/images/8/8d/Splatfest_Pokemon_Red_vs._Pokemon_Green.png",
+    "backdrops": [
+      "https://www.cnet.com/a/img/resize/175aa1da61a0dd4830be9c97f35637a490584f8d/hub/2016/03/01/d1779795-e80d-4a76-b345-d6ee9b2d0466/starter.jpg?auto=webp&width=1200",
+      "https://api.time.com/wp-content/uploads/2016/02/pkmn_display.gif?w=650",
+      "https://api.time.com/wp-content/uploads/2016/02/pkmn_display.gif?w=650"
+    ],
+    "reviewIds": []
+  },
+  {
+    "title": "Pokemon Blue",
+    "releaseDate": "1996-10-15",
+    "trailerLink": "https://www.youtube.com/watch?v=WP4R-wVeT9stHb7WlgyaUc",
+    "platform": "Game Boy",
+    "poster": "https://m.media-amazon.com/images/I/51GMKNSJ9GL.jpg",
+    "backdrops": [
+        "https://www.cnet.com/a/img/resize/175aa1da61a0dd4830be9c97f35637a490584f8d/hub/2016/03/01/d1779795-e80d-4a76-b345-d6ee9b2d0466/starter.jpg?auto=webp&width=1200",
+        "https://api.time.com/wp-content/uploads/2016/02/pkmn_display.gif?w=650",
+        "https://api.time.com/wp-content/uploads/2016/02/pkmn_display.gif?w=650"
+    ],
+    "reviewIds": []
+  },
+  {
+    "title": "Pokemon Yellow",
+    "releaseDate": "1998-9-12",
+    "trailerLink": "https://www.youtube.com/watch?v=QX6Gc2utCYs",
+    "platform": "Game Boy",
+    "poster": "https://archives.bulbagarden.net/media/upload/9/95/Yellow_EN_boxart.png",
+    "backdrops": [
+        "https://www.cnet.com/a/img/resize/175aa1da61a0dd4830be9c97f35637a490584f8d/hub/2016/03/01/d1779795-e80d-4a76-b345-d6ee9b2d0466/starter.jpg?auto=webp&width=1200",
+        "https://api.time.com/wp-content/uploads/2016/02/pkmn_display.gif?w=650",
+        "https://api.time.com/wp-content/uploads/2016/02/pkmn_display.gif?w=650"
+    ],
+    "reviewIds": []
+  }
+]
