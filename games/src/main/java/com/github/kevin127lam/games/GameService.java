@@ -12,13 +12,13 @@ import org.springframework.stereotype.Service;
 public class GameService {
 
     @Autowired //instantiates the following
-    private GameRepository gameRepository;
+    private GameRepository repository;
 
-    public List<Game> allGames(){
-        return gameRepository.findAll(); 
+    public List<Game> findAllGames(){
+        return repository.findAll(); 
     }
 
-    public Optional<Game> singleGame(String title){
-        return gameRepository.findGameByTitle(title);
+    public Optional<Game> findGameByTitle(String title){
+        return repository.findGameByTitle(title);
     }
 }

@@ -7,26 +7,23 @@ import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/games")
 public class GameController {
 
     @Autowired //instantiates the following
-    private GameService gameService;
+    private GameService service;
 
     @GetMapping
     //gets the request and returns the response in the api layer
-    public ResponseEntity<List<Game>> getAllGames(){
-        return new ResponseEntity<List<Game>>(gameService.allGames(), HttpStatus.OK);
+    public ResponseEntity<List<Game>> getGames(){
+        return new ResponseEntity<List<Game>>(service.findAllGames(), HttpStatus.OK);
     }
 
     @GetMapping("/{title}")
     public ResponseEntity<Optional<Game>> getSingleGame(@PathVariable String title){
-        return new ResponseEntity<Optional<Game>>(gameService.singleGame(title), HttpStatus.OK);
+        return new ResponseEntity<Optional<Game>>(service.findGameByTitle(title), HttpStatus.OK);
     }
 }

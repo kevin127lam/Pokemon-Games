@@ -26,5 +26,5 @@ public class Game {
     private List<String> backdrops;
 
     @DocumentReference //manual reference
-    private List<Review> reviewIds;
+    private List<Review> reviews;
 }
