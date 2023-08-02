@@ -1,7 +1,7 @@
-import Hero from '../hero/Hero';
+import Cover from '../cover/Cover';
 const Home = ({games}) => {
     return(
-        <Hero games = {games}/>
+        <Cover games = {games}/>
     )
 }
 
